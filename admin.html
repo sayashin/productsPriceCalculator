@@ -1,0 +1,53 @@
+<!-- admin.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Manage Prices</title>
+  <style>
+    body { background: #111; color: #fff; font-family: monospace; padding: 20px; }
+    select, input, button { width: 100%; padding: 10px; margin: 10px 0; font-size: 16px; }
+    button { background-color: #444; color: #fff; border: none; cursor: pointer; }
+    button:hover { background-color: #666; }
+    .small-btn { width: 48%; margin: 5px 1%; display: inline-block; }
+    .divider { margin-top: 30px; border-top: 1px solid #333; padding-top: 20px; }
+  </style>
+</head>
+<body>
+
+  <h2>Edit Prices</h2>
+
+  <label>Category:</label>
+  <select id="categorySelect"></select>
+
+  <label>Product:</label>
+  <select id="productSelect"></select>
+
+  <label>Broker Price:</label>
+  <input id="brokerPrice" type="number" step="0.01">
+
+  <label>Customer Price:</label>
+  <input id="customerPrice" type="number" step="0.01">
+
+  <label>Church Price:</label>
+  <input id="churchPrice" type="number" step="0.01">
+
+  <button id="saveBtn">💾 Save Price</button>
+
+  <div style="margin-top:10px;">
+    <button class="small-btn" id="deleteProductBtn">🗑️ Delete Product</button>
+  </div>
+
+  <div class="divider">
+    <h3>Add New Product / Category</h3>
+    <input id="newCategoryInput" placeholder="New Category (leave blank to use selected)">
+    <input id="newProductInput" placeholder="New Product Name">
+    <button id="confirmAddProductBtn">➕ Confirm Add</button>
+  </div>
+
+  <h3 id="status"></h3>
+
+  <script src="admin.js"></script>
+
+</body>
+</html>
