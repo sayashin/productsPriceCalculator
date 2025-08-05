@@ -1,1 +1,2 @@
-need to install node modules if you want to run it
+need to run via node
+or you can download the .exe file 
