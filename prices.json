@@ -1,0 +1,125 @@
+{
+  "Banners": {
+    "Banner": {
+      "broker": 1.5,
+      "customer": 5,
+      "church": 3
+    },
+    "Fabric Banner": {
+      "broker": 3.5,
+      "customer": 7.5,
+      "church": 5
+    }
+  },
+  "Decals": {
+    "Decal (No Laminated)": {
+      "broker": 1.25,
+      "customer": 5.5,
+      "church": 3.5
+    },
+    "Decal Laminated": {
+      "broker": 1.75,
+      "customer": 6,
+      "church": 4
+    },
+    "Decal Saturated Laminated": {
+      "broker": 3.75,
+      "customer": 7,
+      "church": 5.25
+    },
+    "Decal Gray Back Laminated": {
+      "broker": 2.5,
+      "customer": 6.25,
+      "church": 4.25
+    },
+    "Decal Clear White Reverse Lamination": {
+      "broker": 3,
+      "customer": 6.5,
+      "church": 4.5
+    },
+    "Decal Die Cut": {
+      "broker": 3.85,
+      "customer": 7.25,
+      "church": 5.5
+    },
+    "Decal Die Cut (smaller than 12inch)": {
+      "broker": 14,
+      "customer": 18,
+      "church": 12
+    },
+    "Perf": {
+      "broker": 3,
+      "customer": 9,
+      "church": 5.25
+    },
+    "Wall Wrap Standard (NO LAM)": {
+      "broker": 3.5,
+      "customer": 7.75,
+      "church": 5.75
+    },
+    "Wall Wrap (DRYTAC)": {
+      "broker": 4,
+      "customer": 8.25,
+      "church": 7
+    },
+    "Car Wrap Laminated": {
+      "broker": 5,
+      "customer": 9,
+      "church": 7.5
+    },
+    "High Tec Decal Laminated": {
+      "broker": 4,
+      "customer": 8.25,
+      "church": 6.25
+    },
+    "Translucent Decal": {
+      "broker": 5.5,
+      "customer": 9.5,
+      "church": 7.75
+    }
+  },
+  "Paper": {
+    "Poster (NO LAM)": {
+      "broker": 2.25,
+      "customer": 6.5,
+      "church": 4.75
+    },
+    "Poster Laminated": {
+      "broker": 3,
+      "customer": 7.25,
+      "church": 5.5
+    }
+  },
+  "Boards": {
+    "Foam Board 3/16”": {
+      "broker": 4.25,
+      "customer": 8.5,
+      "church": 6.5
+    },
+    "PVC Board 1/8”": {
+      "broker": 4.25,
+      "customer": 8.5,
+      "church": 6.5
+    },
+    "Coroplast 6MM": {
+      "broker": 4.5,
+      "customer": 8.75,
+      "church": 6.75
+    },
+    "Coroplast 4MM": {
+      "broker": 4.25,
+      "customer": 8.5,
+      "church": 6.5
+    },
+    "Styrene 1/8": {
+      "broker": 4.5,
+      "customer": 8.75,
+      "church": 6.75
+    },
+    "Second Side Substrate": {
+      "broker": 2.25,
+      "customer": 6.5,
+      "church": 4.5
+    }
+  }
+}
