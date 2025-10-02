@@ -1,8 +1,16 @@
+// app.js
 let prices = {};
 
 window.api.loadPrices().then(data => {
   prices = data;
   populateCategories();
+});
+
+// 🔔 live refresh when admin saves
+window.api.onPricesUpdated?.((newPrices) => {
+  prices = newPrices;
+  populateCategories();
+  updatePriceDisplay();
 });
 
 function populateCategories() {
