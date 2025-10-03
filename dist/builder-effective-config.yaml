@@ -1,0 +1,12 @@
+directories:
+  output: dist
+  buildResources: build
+appId: com.fred.pricecalculator
+productName: Price Calculator
+files:
+  - filter:
+      - '**/*'
+win:
+  target: nsis
+  icon: icon.ico
+electronVersion: 38.1.2
